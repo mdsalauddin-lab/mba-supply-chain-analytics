@@ -6,6 +6,7 @@
 [![Microsoft Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://www.microsoft.com/en-us/microsoft-365/excel)
 [![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)](https://www.latex-project.org/)
 [![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](https://daringfireball.net/projects/markdown/)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ---
 
@@ -101,7 +102,7 @@ A **Yield Management System** continuously optimizes price based on three real-t
 | **Competitor Comp-Set Pricing** | Rate-shopper APIs (e.g., OTA scraping) | Maintain **rate parity**; ensure direct channel (Bonvoy) is equal or lower by 2–5% to drive low-cost bookings. |
 | **Time-to-Arrival Scarcity** | Days until stay (DUS) | Price high for last-minute bookings (DUS = 0–2) during peak demand; drop price for DUS > 21 in low season to stimulate early commitment. |
 
-**Algorithmic rule (simplified):**
+**Algorithmic Pricing Logic (Business Decision Rules):**
 ```
 IF (occupancy_forecast > high_threshold) AND (competitor_rate >= current_rate)
     THEN price = min(competitor_rate * 1.05, absolute_ceiling)
@@ -222,9 +223,9 @@ The table below presents simulated operational gains from executing these combin
 
 ---
 
-## 11. Interactive Executive Dashboard UI/UX Architecture
+## 11. Conceptual Executive Dashboard UI/UX Architecture (Proposed)
 
-The dashboard is built in **Power BI** (or Excel Power Pivot) with three main views:
+To effectively visualize the integrated supply chain insights, the proposed executive dashboard is structurally mapped with three main functional views:
 
 ### 11.1 Layout Structure
 - **Left pane:** Slicers for Country (China/Bangladesh), Year (2022–2026), Hotel Tier (Luxury/Economy), and Risk Status (Scope 3 Red/Yellow/Green).

@@ -82,7 +82,7 @@ $$
 Revenue and profitability are tracked via nested metrics:
 
 $$
-\underbrace{\text{RevPAR}}_{\text{Revenue Per Available Room}} \rightarrow \underbrace{\text{TRevPAR}}_{\text{+ F&B, spa, parking}} \rightarrow \underbrace{\text{GOPPAR}}_{\text{– departmental expenses}}
+\underbrace{\text{RevPAR}}_{\text{Revenue Per Available Room}} \rightarrow \underbrace{\text{TRevPAR}}_{\text{+ F and B, spa, parking}} \rightarrow \underbrace{\text{GOPPAR}}_{\text{– departmental expenses}}
 $$
 
 Where:
@@ -314,6 +314,6 @@ This repository provides an **enterprise-grade decision-support framework** at t
 
 ---
 
-*For implementation details, data dictionaries, and Python notebooks, please refer to the respective `/projects` subdirectories.*
+*For implementation details, data dictionaries, please refer to the respective `/projects` subdirectories.*
 
 **Md Salauddin** – MBA in Supply Chain & Logistics, East China Jiaotong University 

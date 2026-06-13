@@ -1,4 +1,3 @@
-````markdown
 # 📊 MBA Supply Chain Analytics & Algorithmic Decision-Support Framework
 
 **Author:** Md Salauddin (MBA in Supply Chain & Logistics, East China Jiaotong University)
@@ -317,6 +316,4 @@ This repository provides an **enterprise-grade decision-support framework** at t
 
 *For implementation details, data dictionaries, and Python notebooks, please refer to the respective `/projects` subdirectories.*
 
-**Md Salauddin** – MBA in Supply Chain & Logistics, East China Jiaotong University  
-*Repository last updated: 2026-06-13*
-````
+**Md Salauddin** – MBA in Supply Chain & Logistics, East China Jiaotong University 
